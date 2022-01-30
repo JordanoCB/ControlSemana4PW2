@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="./js/encontrar ID.js"></script>
+    <script src="./js/mostrar objeto.js"></script>
+    <script src="./js/obtener suma.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body id="body">
+
+    <section id="pregunta 1">
+
+        <!--obtener suma.js-->
+
+        <fieldset>
+            <legend>Pregunta 1</legend>
+
+            Ingrese un número: <input id="valor" type="number">
+            <h3 id="mostrarsuma"></h3>
+            <button onclick="obtenerSuma();">Mostrar Suma</button>
+        </fieldset>       
+    </section>
+
+    <br>
+
+    <section id="pregunta 2">
+
+        <!--mostrar objeto.js-->
+
+        <fieldset id="pregunta2">
+            <legend>Pregunta 2</legend>
+
+            <button onclick="imprimir();">Mostrar Cadena</button>
+        </fieldset>
+    </section>
+
+    <br>
+
+    <section id="pregunta 3">
+        <!--encontrar ID.js-->
+
+        <fieldset id="pregunta3">
+            <legend>Pregunta 3</legend>
+
+            <button onclick="MostrarID();">Mostrar por ID</button>
+        </fieldset>
+    </section>
+</body>
+</html>
